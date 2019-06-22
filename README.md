@@ -12,11 +12,11 @@ List      // тип контейнер
   Last()  // последний Item
   PushFront(v interface{}) // добавить значение в начало
   PushBack(v interface{})  // добавить значение в конец
+  Remove()             // удалить Item из списка
 
 Item   // элемент списка
   Value() interface{}  // возвращает значение
   Nex() *Item          // следующий Item
   Prev() *Item         // предыдущий
-  Remove()             // удалить Item из списка
 
 ```
